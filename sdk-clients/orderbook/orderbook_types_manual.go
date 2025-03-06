@@ -75,7 +75,8 @@ type OrderData struct {
 }
 
 type CreateOrderResponse struct {
-	Success bool `json:"success"`
+	OrderHash string `json:"orderHash"`
+	Success   bool   `json:"success"`
 }
 
 type OrderResponse struct {
