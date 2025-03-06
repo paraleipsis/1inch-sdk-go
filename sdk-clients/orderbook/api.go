@@ -46,6 +46,8 @@ func (api *api) CreateOrder(ctx context.Context, params CreateOrderParams) (*Cre
 		return nil, err
 	}
 
+	createOrderResponse.OrderHash = order.OrderHash
+
 	return &createOrderResponse, nil
 }
 
