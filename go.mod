@@ -1,4 +1,4 @@
-module github.com/1inch/1inch-sdk-go
+module github.com/paraleipsis/1inch-sdk-go
 
 go 1.22
 
