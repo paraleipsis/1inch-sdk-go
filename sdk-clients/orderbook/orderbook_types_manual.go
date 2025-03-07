@@ -117,7 +117,7 @@ type GetOrderByHashResponse struct {
 	TakerRate            string      `json:"takerRate"`
 	TakerRateDoubled     float64     `json:"takerRateDoubled"`
 	OrderHashSelector    int         `json:"orderHashSelector"`
-	OrderInvalidReason   interface{} `json:"orderInvalidReason"`
+	OrderInvalidReason   *string     `json:"orderInvalidReason,omitempty"`
 	IsMakerContract      bool        `json:"isMakerContract"`
 }
 
