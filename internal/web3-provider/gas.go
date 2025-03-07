@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/1inch/1inch-sdk-go/constants"
 	"github.com/ethereum/go-ethereum"
+	"github.com/paraleipsis/1inch-sdk-go/constants"
 )
 
 func (w Wallet) GetGasTipCap(ctx context.Context) (*big.Int, error) {

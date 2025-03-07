@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/1inch/1inch-sdk-go/common"
+	"github.com/paraleipsis/1inch-sdk-go/common"
 )
 
 func (api *api) GetOrderByOrderHash(ctx context.Context, params GetOrderByOrderHashParams) (*GetOrderFillsByHashOutputFixed, error) {

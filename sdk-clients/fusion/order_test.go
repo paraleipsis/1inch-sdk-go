@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/1inch/1inch-sdk-go/sdk-clients/orderbook"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/orderbook"
 )
 
 func TestGetPreset(t *testing.T) {

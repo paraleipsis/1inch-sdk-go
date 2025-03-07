@@ -11,7 +11,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/1inch/1inch-sdk-go/sdk-clients/orderbook"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/orderbook"
 )
 
 var (

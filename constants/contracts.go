@@ -3,7 +3,7 @@ package constants
 import (
 	"fmt"
 
-	"github.com/1inch/1inch-sdk-go/internal/slice_utils"
+	"github.com/paraleipsis/1inch-sdk-go/internal/slice_utils"
 )
 
 const AggregationRouterV5 = "0x1111111254eeb25477b68fb85ed929f73a960582" // Contract address is identical for all chains except zkSync

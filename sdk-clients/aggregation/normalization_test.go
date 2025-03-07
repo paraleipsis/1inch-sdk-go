@@ -8,7 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/1inch/1inch-sdk-go/constants"
+	"github.com/paraleipsis/1inch-sdk-go/constants"
 )
 
 func TestNormalizeSwapResponse(t *testing.T) {

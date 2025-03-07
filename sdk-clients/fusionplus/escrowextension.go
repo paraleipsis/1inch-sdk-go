@@ -9,11 +9,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/1inch/1inch-sdk-go/internal/bytesiterator"
-	"github.com/1inch/1inch-sdk-go/internal/hexadecimal"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/fusion"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/orderbook"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/paraleipsis/1inch-sdk-go/internal/bytesiterator"
+	"github.com/paraleipsis/1inch-sdk-go/internal/hexadecimal"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/fusion"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/orderbook"
 )
 
 type EscrowExtension struct {
@@ -278,8 +278,8 @@ func encodeTimeLocks(tl *TimeLocks) (*big.Int, error) {
 	data := make([]byte, 32)
 
 	//TODO statically putting a timeDeployed value of 0 at the beginning of the encoded data for now. The data is missing from the generated struct.
-	// https://github.com/1inch/cross-chain-sdk/blob/532f6ae6dc401ddaf8fe3ad040305f2500156710/src/cross-chain-order/time-locks/time-locks.ts#L33-L33
-	// https://github.com/1inch/cross-chain-sdk/blob/532f6ae6dc401ddaf8fe3ad040305f2500156710/src/cross-chain-order/time-locks/time-locks.ts#L188-L188
+	// https://github.com/paraleipsis/cross-chain-sdk/blob/532f6ae6dc401ddaf8fe3ad040305f2500156710/src/cross-chain-order/time-locks/time-locks.ts#L33-L33
+	// https://github.com/paraleipsis/cross-chain-sdk/blob/532f6ae6dc401ddaf8fe3ad040305f2500156710/src/cross-chain-order/time-locks/time-locks.ts#L188-L188
 	binary.BigEndian.PutUint32(data[0:4], uint32(0))
 	binary.BigEndian.PutUint32(data[4:8], uint32(tl.DstCancellation))
 	binary.BigEndian.PutUint32(data[8:12], uint32(tl.DstPublicWithdrawal))

@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/1inch/1inch-sdk-go/internal/bigint"
-	random_number_generation "github.com/1inch/1inch-sdk-go/internal/random-number-generation"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/fusion"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/paraleipsis/1inch-sdk-go/internal/bigint"
+	random_number_generation "github.com/paraleipsis/1inch-sdk-go/internal/random-number-generation"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/fusion"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/1inch/1inch-sdk-go/internal/bigint"
+	"github.com/paraleipsis/1inch-sdk-go/internal/bigint"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/1inch/1inch-sdk-go/constants"
-	"github.com/1inch/1inch-sdk-go/internal/slice_utils"
+	"github.com/paraleipsis/1inch-sdk-go/constants"
+	"github.com/paraleipsis/1inch-sdk-go/internal/slice_utils"
 )
 
 func TestIsEthereumAddressRequired(t *testing.T) {

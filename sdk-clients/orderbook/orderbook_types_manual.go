@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/1inch/1inch-sdk-go/common"
 	geth_common "github.com/ethereum/go-ethereum/common"
+	"github.com/paraleipsis/1inch-sdk-go/common"
 )
 
 type CreateOrderParams struct {
@@ -99,26 +99,26 @@ type OrderResponseExtended struct {
 }
 
 type GetOrderByHashResponse struct {
-	ID                   int         `json:"id"`
-	OrderHash            string      `json:"orderHash"`
-	CreateDateTime       time.Time   `json:"createDateTime"`
-	LastChangedDateTime  time.Time   `json:"lastChangedDateTime"`
-	TakerAsset           string      `json:"takerAsset"`
-	MakerAsset           string      `json:"makerAsset"`
-	OrderMaker           string      `json:"orderMaker"`
-	OrderStatus          int         `json:"orderStatus"`
-	MakerAmount          string      `json:"makerAmount"`
-	RemainingMakerAmount string      `json:"remainingMakerAmount"`
-	MakerBalance         string      `json:"makerBalance"`
-	MakerAllowance       string      `json:"makerAllowance"`
-	TakerAmount          string      `json:"takerAmount"`
-	Data                 OrderData   `json:"data"`
-	MakerRate            string      `json:"makerRate"`
-	TakerRate            string      `json:"takerRate"`
-	TakerRateDoubled     float64     `json:"takerRateDoubled"`
-	OrderHashSelector    int         `json:"orderHashSelector"`
-	OrderInvalidReason   *string     `json:"orderInvalidReason,omitempty"`
-	IsMakerContract      bool        `json:"isMakerContract"`
+	ID                   int       `json:"id"`
+	OrderHash            string    `json:"orderHash"`
+	CreateDateTime       time.Time `json:"createDateTime"`
+	LastChangedDateTime  time.Time `json:"lastChangedDateTime"`
+	TakerAsset           string    `json:"takerAsset"`
+	MakerAsset           string    `json:"makerAsset"`
+	OrderMaker           string    `json:"orderMaker"`
+	OrderStatus          int       `json:"orderStatus"`
+	MakerAmount          string    `json:"makerAmount"`
+	RemainingMakerAmount string    `json:"remainingMakerAmount"`
+	MakerBalance         string    `json:"makerBalance"`
+	MakerAllowance       string    `json:"makerAllowance"`
+	TakerAmount          string    `json:"takerAmount"`
+	Data                 OrderData `json:"data"`
+	MakerRate            string    `json:"makerRate"`
+	TakerRate            string    `json:"takerRate"`
+	TakerRateDoubled     float64   `json:"takerRateDoubled"`
+	OrderHashSelector    int       `json:"orderHashSelector"`
+	OrderInvalidReason   *string   `json:"orderInvalidReason,omitempty"`
+	IsMakerContract      bool      `json:"isMakerContract"`
 }
 
 type CountResponse struct {

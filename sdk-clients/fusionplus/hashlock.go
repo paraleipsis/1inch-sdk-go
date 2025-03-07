@@ -9,10 +9,10 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/1inch/1inch-sdk-go/internal/hexadecimal"
-	"github.com/1inch/1inch-sdk-go/internal/keccak"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/paraleipsis/1inch-sdk-go/internal/hexadecimal"
+	"github.com/paraleipsis/1inch-sdk-go/internal/keccak"
 	"golang.org/x/crypto/sha3"
 )
 

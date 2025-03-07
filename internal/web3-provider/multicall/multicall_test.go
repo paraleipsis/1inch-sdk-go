@@ -19,7 +19,7 @@ import (
 //	"github.com/ethereum/go-ethereum/ethclient"
 //	"github.com/stretchr/testify/require"
 //
-//	"github.com/1inch/1inch-sdk-go/constants"
+//	"github.com/paraleipsis/1inch-sdk-go/constants"
 //
 // )
 //

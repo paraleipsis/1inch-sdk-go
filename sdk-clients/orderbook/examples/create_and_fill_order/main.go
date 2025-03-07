@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/1inch/1inch-sdk-go/constants"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/orderbook"
 	gethCommon "github.com/ethereum/go-ethereum/common"
+	"github.com/paraleipsis/1inch-sdk-go/constants"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/orderbook"
 )
 
 var (

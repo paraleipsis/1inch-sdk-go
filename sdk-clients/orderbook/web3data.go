@@ -8,7 +8,7 @@ import (
 
 	gethCommon "github.com/ethereum/go-ethereum/common"
 
-	"github.com/1inch/1inch-sdk-go/constants"
+	"github.com/paraleipsis/1inch-sdk-go/constants"
 )
 
 func (c *Client) GetSeriesNonce(ctx context.Context, publicAddress gethCommon.Address) (*big.Int, error) {

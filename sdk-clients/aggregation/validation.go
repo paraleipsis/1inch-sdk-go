@@ -3,7 +3,7 @@ package aggregation
 import (
 	"errors"
 
-	"github.com/1inch/1inch-sdk-go/internal/validate"
+	"github.com/paraleipsis/1inch-sdk-go/internal/validate"
 )
 
 func (params *GetAllowanceParams) Validate() error {

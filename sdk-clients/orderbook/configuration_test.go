@@ -3,7 +3,7 @@ package orderbook
 import (
 	"testing"
 
-	"github.com/1inch/1inch-sdk-go/constants"
+	"github.com/paraleipsis/1inch-sdk-go/constants"
 	"github.com/stretchr/testify/assert"
 )
 

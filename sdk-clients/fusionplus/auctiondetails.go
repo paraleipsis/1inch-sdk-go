@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/1inch/1inch-sdk-go/internal/bytesbuilder"
-	"github.com/1inch/1inch-sdk-go/internal/bytesiterator"
+	"github.com/paraleipsis/1inch-sdk-go/internal/bytesbuilder"
+	"github.com/paraleipsis/1inch-sdk-go/internal/bytesiterator"
 )
 
 const (

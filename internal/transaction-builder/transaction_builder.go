@@ -9,7 +9,7 @@ import (
 	gethCommon "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/1inch/1inch-sdk-go/common"
+	"github.com/paraleipsis/1inch-sdk-go/common"
 )
 
 type TransactionBuilder struct {

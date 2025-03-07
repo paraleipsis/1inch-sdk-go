@@ -2,7 +2,7 @@
 
 The SDK requires a minimum version of Go `1.22`.
 
-Check out the [release notes](https://github.com/1inch/1inch-sdk-go/blob/main/CHANGELOG.md) for information about
+Check out the [release notes](https://github.com/paraleipsis/1inch-sdk-go/blob/main/CHANGELOG.md) for information about
 the latest bug fixes, updates, and features added to the SDK.
 
 Beyond simplifying Go-based interactions with our REST API, this SDK also helps broadcast transactions to the network, can generate Permit1 signatures to skip the need for Approval transactions, and enables access to our Fusion system. Each SDK has examples of how to send valid requests to each Dev Portal endpoint. 
@@ -17,32 +17,32 @@ Jump To:
 ## Supported APIs
 
 ### Token Swaps
-*Swap API* - [[Docs](https://portal.1inch.dev/documentation/apis/swap/classic-swap/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/aggregation/examples/quote/main.go)]
+*Swap API* - [[Docs](https://portal.1inch.dev/documentation/apis/swap/classic-swap/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/aggregation/examples/quote/main.go)]
 
-*Fusion API* - [[Docs](https://portal.1inch.dev/documentation/apis/swap/intent-swap/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/fusion/examples/place_order/main.go)] (now called Intent Swap)
+*Fusion API* - [[Docs](https://portal.1inch.dev/documentation/apis/swap/intent-swap/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/fusion/examples/place_order/main.go)] (now called Intent Swap)
 
-*Fusion Plus API* - [[Docs](https://portal.1inch.dev/documentation/apis/swap/fusion-plus/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/fusionplus/examples/place_order/main.go)]
+*Fusion Plus API* - [[Docs](https://portal.1inch.dev/documentation/apis/swap/fusion-plus/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/fusionplus/examples/place_order/main.go)]
 
-*Orderbook API* - [[Docs](https://portal.1inch.dev/documentation/apis/orderbook/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/orderbook/examples/create_order/main.go)]
+*Orderbook API* - [[Docs](https://portal.1inch.dev/documentation/apis/orderbook/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/orderbook/examples/create_order/main.go)]
 
 ### Infrastructure
-*Balance API* - [[Docs](https://portal.1inch.dev/documentation/apis/balance/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/balances/examples/get_allowances_of_custom_tokens/main.go)]
+*Balance API* - [[Docs](https://portal.1inch.dev/documentation/apis/balance/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/balances/examples/get_allowances_of_custom_tokens/main.go)]
 
-*Gas Price API* - [[Docs](https://portal.1inch.dev/documentation/apis/gas-price/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/gasprices/examples/get_gas_price_eip1559/main.go)]
+*Gas Price API* - [[Docs](https://portal.1inch.dev/documentation/apis/gas-price/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/gasprices/examples/get_gas_price_eip1559/main.go)]
 
-*History API* [[Docs](https://portal.1inch.dev/documentation/apis/history/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/history/examples/get_history_events_by_address/main.go)]
+*History API* [[Docs](https://portal.1inch.dev/documentation/apis/history/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/history/examples/get_history_events_by_address/main.go)]
 
-*NFT API* - [[Docs](https://portal.1inch.dev/documentation/apis/nft/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/nft/examples/main.go)]
+*NFT API* - [[Docs](https://portal.1inch.dev/documentation/apis/nft/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/nft/examples/main.go)]
 
-*Portfolio API* - [[Docs](https://portal.1inch.dev/documentation/apis/portfolio/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/portfolio/examples/get_current_protocols_value/main.go)]
+*Portfolio API* - [[Docs](https://portal.1inch.dev/documentation/apis/portfolio/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/portfolio/examples/get_current_protocols_value/main.go)]
 
-*Spot Price API* - [[Docs](https://portal.1inch.dev/documentation/apis/spot-price/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/spotprices/examples/get_prices_for_requested_tokens/main.go)]
+*Spot Price API* - [[Docs](https://portal.1inch.dev/documentation/apis/spot-price/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/spotprices/examples/get_prices_for_requested_tokens/main.go)]
 
-*Token API* - [[Docs](https://portal.1inch.dev/documentation/apis/tokens/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/tokens/examples/get_custom_token/main.go)]
+*Token API* - [[Docs](https://portal.1inch.dev/documentation/apis/tokens/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/tokens/examples/get_custom_token/main.go)]
 
-*Traces API* - [[Docs](https://portal.1inch.dev/documentation/apis/traces/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/traces/examples/get_tx_trace_by_number_and_hash/main.go)]
+*Traces API* - [[Docs](https://portal.1inch.dev/documentation/apis/traces/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/traces/examples/get_tx_trace_by_number_and_hash/main.go)]
 
-*Transaction Gateway API* - [[Docs](https://portal.1inch.dev/documentation/apis/transaction/introduction) | [SDK Example](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients/txbroadcast/examples/broadcast_public_transaction/main.go)]
+*Transaction Gateway API* - [[Docs](https://portal.1inch.dev/documentation/apis/transaction/introduction) | [SDK Example](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients/txbroadcast/examples/broadcast_public_transaction/main.go)]
 
 
 ## Getting started
@@ -62,7 +62,7 @@ go mod init hello1inch
 ###### Add SDK Dependencies
 
 ```
-go get github.com/1inch/1inch-sdk-go/sdk-clients/aggregation
+go get github.com/paraleipsis/1inch-sdk-go/sdk-clients/aggregation
 ```
 
 ###### Write Code
@@ -80,8 +80,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/1inch/1inch-sdk-go/constants"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/aggregation"
+	"github.com/paraleipsis/1inch-sdk-go/constants"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/aggregation"
 )
 
 var (
@@ -136,15 +136,15 @@ go run .
 
 Documentation for all API calls can be found at https://portal.1inch.dev/documentation
 
-Each folder inside the [sdk-clients directory](https://github.com/1inch/1inch-sdk-go/blob/main/sdk-clients) 
+Each folder inside the [sdk-clients directory](https://github.com/paraleipsis/1inch-sdk-go/blob/main/sdk-clients) 
 will contain an SDK for one of the 1inch APIs and will also include dedicated examples.
 
 ## Getting Help
 
 If you have questions, want to discuss the tool, or have found a bug, please open
-an [issue](https://github.com/1inch/1inch-sdk/issues) here on GitHub
+an [issue](https://github.com/paraleipsis/1inch-sdk/issues) here on GitHub
 
 ## Development
 
-Please see our [SDK Developer Guide](https://github.com/1inch/1inch-sdk-go/blob/main/DEVELOPMENT.md) if you would
+Please see our [SDK Developer Guide](https://github.com/paraleipsis/1inch-sdk-go/blob/main/DEVELOPMENT.md) if you would
 like to contribute 

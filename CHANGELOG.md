@@ -5,21 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) starting with the *v1.0.0-beta.1* release.
 
 ## [v1.0.0-beta.3] - 2025-1-22
-[v1.0.0-beta.3 release page](https://github.com/1inch/1inch-sdk-go/releases/tag/v1.0.0-beta.3)
+[v1.0.0-beta.3 release page](https://github.com/paraleipsis/1inch-sdk-go/releases/tag/v1.0.0-beta.3)
 ### Changed
 - Fusion Plus support added
 - Pending Fusion orders can now be tracked using the SDK
 - Orderbook client updated to support new API schema
 
 ## [v1.0.0-beta.2] - 2024-10-23
-[v1.0.0-beta.2 release page](https://github.com/1inch/1inch-sdk-go/releases/tag/v1.0.0-beta.2)
+[v1.0.0-beta.2 release page](https://github.com/paraleipsis/1inch-sdk-go/releases/tag/v1.0.0-beta.2)
 ### Changed
 - Classic Swap updated to use V6 API
 - Added examples for all Classic Swap endpoints
 - When using TransactionBuilder, if no `gas` value is specified in the transaction config, `eth_estimateGas` will be used by default
 
 ## [v1.0.0-beta.1] - 2024-8-22
-[v1.0.0-beta.1 release page](https://github.com/1inch/1inch-sdk-go/releases/tag/v1.0.0-beta.1)
+[v1.0.0-beta.1 release page](https://github.com/paraleipsis/1inch-sdk-go/releases/tag/v1.0.0-beta.1)
 
 Note: This changelog summarizes all changes since the last *changelog* version of v0.0.3-developer-preview
 
@@ -37,31 +37,31 @@ Note: This changelog summarizes all changes since the last *changelog* version o
 - Improved code generation to make optional parameters pointers
 
 # [v0.0.3-developer-preview] - 2024-3-9
-[v0.0.3-developer-preview](https://github.com/1inch/1inch-sdk/releases/tag/v0.0.3-developer-preview)
+[v0.0.3-developer-preview](https://github.com/paraleipsis/1inch-sdk/releases/tag/v0.0.3-developer-preview)
 
 ### New Features and Enhancements:
 
 - All non-global query configurations have been moved to the request-level
-  params ([PR](https://github.com/1inch/1inch-sdk/pull/6))
+  params ([PR](https://github.com/paraleipsis/1inch-sdk/pull/6))
     - RPC providers for all chains will now be defined/set at SDK startup
-- Query parameters now use concrete types instead of pointers ([PR](https://github.com/1inch/1inch-sdk/pull/16))
-- Limit orders created within the SDK now support auto-expiration ([PR](https://github.com/1inch/1inch-sdk/pull/23))
+- Query parameters now use concrete types instead of pointers ([PR](https://github.com/paraleipsis/1inch-sdk/pull/16))
+- Limit orders created within the SDK now support auto-expiration ([PR](https://github.com/paraleipsis/1inch-sdk/pull/23))
 - Permit1 properly supported for limit orders when possible (fallback to Approval if Permit1 does not
-  work) ([commit](https://github.com/1inch/1inch-sdk/commit/f2e79e5f0e81503bfeeff076e41455e86e5a5120))
+  work) ([commit](https://github.com/paraleipsis/1inch-sdk/commit/f2e79e5f0e81503bfeeff076e41455e86e5a5120))
 - When creating a limit order, integrators can error out when an approval is needed. This is useful for integrators who
-  want all onchain actions to be performed manually by their users ([PR](https://github.com/1inch/1inch-sdk/pull/26))
+  want all onchain actions to be performed manually by their users ([PR](https://github.com/paraleipsis/1inch-sdk/pull/26))
 
 ### Optimizations and Bug Fixes:
 
 - Tenderly forks are cleaned up automatically at the beginning of each test
-  run ([PR](https://github.com/1inch/1inch-sdk/pull/6))
+  run ([PR](https://github.com/paraleipsis/1inch-sdk/pull/6))
 - Validation pattern for swagger-generated input params is now fully handled on all
-  endpoints ([PR](https://github.com/1inch/1inch-sdk/pull/8))
+  endpoints ([PR](https://github.com/paraleipsis/1inch-sdk/pull/8))
 - Project-wide validation scripts added to verify validation logic
-  standards ([PR](https://github.com/1inch/1inch-sdk/pull/11))
+  standards ([PR](https://github.com/paraleipsis/1inch-sdk/pull/11))
 
 # [v0.0.2-developer-preview] 2024-1-23
-Tag: [v0.0.2-developer-preview](https://github.com/1inch/1inch-sdk/releases/tag/v0.0.2-developer-preview)
+Tag: [v0.0.2-developer-preview](https://github.com/paraleipsis/1inch-sdk/releases/tag/v0.0.2-developer-preview)
 
 ### New Features and Enhancements:
 
@@ -82,7 +82,7 @@ Tag: [v0.0.2-developer-preview](https://github.com/1inch/1inch-sdk/releases/tag/
 
 # Release (January 15, 2024)
 
-Tag: [v0.0.1-developer-preview](https://github.com/1inch/1inch-sdk/releases/tag/v0.0.1-developer-preview)
+Tag: [v0.0.1-developer-preview](https://github.com/paraleipsis/1inch-sdk/releases/tag/v0.0.1-developer-preview)
 
 ### New Features and Enhancements:
 

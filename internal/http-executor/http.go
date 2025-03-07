@@ -14,7 +14,7 @@ import (
 
 	"github.com/google/go-querystring/query"
 
-	"github.com/1inch/1inch-sdk-go/common"
+	"github.com/paraleipsis/1inch-sdk-go/common"
 )
 
 func DefaultHttpClient(apiUrl string, apiKey string) (*Client, error) {

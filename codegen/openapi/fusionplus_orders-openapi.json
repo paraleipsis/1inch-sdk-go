@@ -748,7 +748,7 @@
           },
           "timelocks": {
             "type": "string",
-            "description": "Encoded timelocks. To decode use: https://github.com/1inch/cross-chain-sdk/blob/master/src/cross-chain-order/time-locks/time-locks.ts",
+            "description": "Encoded timelocks. To decode use: https://github.com/paraleipsis/cross-chain-sdk/blob/master/src/cross-chain-order/time-locks/time-locks.ts",
             "example": "0x3000000020000000100000004000000030000000200000001",
             "x-go-type-skip-optional-pointer": true
           }

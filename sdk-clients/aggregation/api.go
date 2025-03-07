@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/1inch/1inch-sdk-go/common"
+	"github.com/paraleipsis/1inch-sdk-go/common"
 )
 
 const apiVersion = "v6.0"

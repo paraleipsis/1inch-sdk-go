@@ -288,7 +288,7 @@ type Immutables struct {
 	// Taker Escrow creation initiator address
 	Taker string `json:"taker"`
 
-	// Timelocks Encoded timelocks. To decode use: https://github.com/1inch/cross-chain-sdk/blob/master/src/cross-chain-order/time-locks/time-locks.ts
+	// Timelocks Encoded timelocks. To decode use: https://github.com/paraleipsis/cross-chain-sdk/blob/master/src/cross-chain-order/time-locks/time-locks.ts
 	Timelocks string `json:"timelocks"`
 
 	// Token Token to receive on specific chain

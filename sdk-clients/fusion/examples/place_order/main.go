@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/1inch/1inch-sdk-go/sdk-clients/fusion"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/fusion"
 )
 
 var (

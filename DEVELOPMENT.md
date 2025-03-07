@@ -8,16 +8,16 @@ between each release. Once the library version reaches 1.0.0 and beyond, it will
 
 ### Project structure
 
-This SDK is powered by a [client struct](https://github.com/1inch/1inch-sdk/blob/main/golang/client/client.go) that
+This SDK is powered by a [client struct](https://github.com/paraleipsis/1inch-sdk/blob/main/golang/client/client.go) that
 contains instances of all Services used to talk to the 1inch APIs
 
 Each Service maps 1-to-1 with the underlying Dev Portal REST API.
-See [SwapService](https://github.com/1inch/1inch-sdk/blob/main/golang/client/swap.go) as an example. Under each
+See [SwapService](https://github.com/paraleipsis/1inch-sdk/blob/main/golang/client/swap.go) as an example. Under each
 function, you will find the matching REST API path)
 
 Each Service uses various types and functions to do its job that are kept separate from the main service file. These can
 be found in the accompanying folder within the client directory (see
-the [swap](https://github.com/1inch/1inch-sdk/tree/main/golang/client/swap) package)
+the [swap](https://github.com/paraleipsis/1inch-sdk/tree/main/golang/client/swap) package)
 
 ### Type generation
 

@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"math/big"
 
-	"github.com/1inch/1inch-sdk-go/internal/hexadecimal"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/paraleipsis/1inch-sdk-go/internal/hexadecimal"
 )
 
 type BytesBuilder struct {

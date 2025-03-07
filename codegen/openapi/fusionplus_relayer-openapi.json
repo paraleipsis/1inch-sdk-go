@@ -141,7 +141,7 @@
           },
           "makerTraits": {
             "type": "string",
-            "description": "Includes some flags like: allow multiple fills, is partial fill allowed or not, price improvement, nonce, deadline etc. See <a href=\"https://github.com/1inch/limit-order-sdk/blob/master/src/limit-order/maker-traits.ts\" target=\"_blank\">maker-traits.ts</a>",
+            "description": "Includes some flags like: allow multiple fills, is partial fill allowed or not, price improvement, nonce, deadline etc. See <a href=\"https://github.com/paraleipsis/limit-order-sdk/blob/master/src/limit-order/maker-traits.ts\" target=\"_blank\">maker-traits.ts</a>",
             "default": "0",
             "x-go-type-skip-optional-pointer": true
           }
@@ -176,7 +176,7 @@
           },
           "extension": {
             "type": "string",
-            "description": "An interaction call data. ABI encoded a set of makerAssetSuffix, takerAssetSuffix, makingAmountGetter, takingAmountGetter, predicate, permit, preInteraction, postInteraction.Lowest 160 bits of the order salt must be equal to the lowest 160 bits of the extension hash. See <a href=\"https://github.com/1inch/cross-chain-sdk/blob/master/src/cross-chain-order/escrow-extension.ts\" target=\"_blank\">escrow-extension.ts</a>>",
+            "description": "An interaction call data. ABI encoded a set of makerAssetSuffix, takerAssetSuffix, makingAmountGetter, takingAmountGetter, predicate, permit, preInteraction, postInteraction.Lowest 160 bits of the order salt must be equal to the lowest 160 bits of the extension hash. See <a href=\"https://github.com/paraleipsis/cross-chain-sdk/blob/master/src/cross-chain-order/escrow-extension.ts\" target=\"_blank\">escrow-extension.ts</a>>",
             "example": "0x",
             "x-go-type-skip-optional-pointer": true
           },

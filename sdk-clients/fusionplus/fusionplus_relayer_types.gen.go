@@ -11,7 +11,7 @@ type OrderInput struct {
 	// MakerAsset Source chain address of the maker asset
 	MakerAsset string `json:"makerAsset"`
 
-	// MakerTraits Includes some flags like: allow multiple fills, is partial fill allowed or not, price improvement, nonce, deadline etc. See <a href="https://github.com/1inch/limit-order-sdk/blob/master/src/limit-order/maker-traits.ts" target="_blank">maker-traits.ts</a>
+	// MakerTraits Includes some flags like: allow multiple fills, is partial fill allowed or not, price improvement, nonce, deadline etc. See <a href="https://github.com/paraleipsis/limit-order-sdk/blob/master/src/limit-order/maker-traits.ts" target="_blank">maker-traits.ts</a>
 	MakerTraits string `json:"makerTraits"`
 
 	// MakingAmount Order maker's token amount
@@ -38,7 +38,7 @@ type SecretInput struct {
 
 // SignedOrderInput defines model for SignedOrderInput.
 type SignedOrderInput struct {
-	// Extension An interaction call data. ABI encoded a set of makerAssetSuffix, takerAssetSuffix, makingAmountGetter, takingAmountGetter, predicate, permit, preInteraction, postInteraction.Lowest 160 bits of the order salt must be equal to the lowest 160 bits of the extension hash. See <a href="https://github.com/1inch/cross-chain-sdk/blob/master/src/cross-chain-order/escrow-extension.ts" target="_blank">escrow-extension.ts</a>>
+	// Extension An interaction call data. ABI encoded a set of makerAssetSuffix, takerAssetSuffix, makingAmountGetter, takingAmountGetter, predicate, permit, preInteraction, postInteraction.Lowest 160 bits of the order salt must be equal to the lowest 160 bits of the extension hash. See <a href="https://github.com/paraleipsis/cross-chain-sdk/blob/master/src/cross-chain-order/escrow-extension.ts" target="_blank">escrow-extension.ts</a>>
 	Extension string     `json:"extension"`
 	Order     OrderInput `json:"order"`
 

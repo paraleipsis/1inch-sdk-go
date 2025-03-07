@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/1inch/1inch-sdk-go/internal/hexadecimal"
 	geth_common "github.com/ethereum/go-ethereum/common"
+	"github.com/paraleipsis/1inch-sdk-go/internal/hexadecimal"
 	"golang.org/x/crypto/sha3"
 
-	random_number_generation "github.com/1inch/1inch-sdk-go/internal/random-number-generation"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/orderbook"
+	random_number_generation "github.com/paraleipsis/1inch-sdk-go/internal/random-number-generation"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/orderbook"
 )
 
 // Extension represents the extension data for the Fusion order

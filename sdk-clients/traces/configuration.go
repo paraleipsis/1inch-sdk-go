@@ -1,7 +1,7 @@
 package traces
 
 import (
-	"github.com/1inch/1inch-sdk-go/internal/http-executor"
+	"github.com/paraleipsis/1inch-sdk-go/internal/http-executor"
 )
 
 type Configuration struct {

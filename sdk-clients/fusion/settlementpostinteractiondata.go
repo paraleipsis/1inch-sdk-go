@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/1inch/1inch-sdk-go/internal/bytesbuilder"
-	"github.com/1inch/1inch-sdk-go/internal/hexadecimal"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/paraleipsis/1inch-sdk-go/internal/bytesbuilder"
+	"github.com/paraleipsis/1inch-sdk-go/internal/hexadecimal"
 )
 
 type SettlementPostInteractionData struct {

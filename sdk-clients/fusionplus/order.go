@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/1inch/1inch-sdk-go/common"
-	random_number_generation "github.com/1inch/1inch-sdk-go/internal/random-number-generation"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/fusion"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/orderbook"
 	geth_common "github.com/ethereum/go-ethereum/common"
+	"github.com/paraleipsis/1inch-sdk-go/common"
+	random_number_generation "github.com/paraleipsis/1inch-sdk-go/internal/random-number-generation"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/fusion"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/orderbook"
 )
 
 var uint40Max = new(big.Int).Sub(new(big.Int).Lsh(big.NewInt(1), 40), big.NewInt(1))

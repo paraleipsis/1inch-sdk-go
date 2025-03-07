@@ -3,9 +3,9 @@ package fusionplus
 import (
 	"math/big"
 
-	"github.com/1inch/1inch-sdk-go/sdk-clients/fusion"
-	"github.com/1inch/1inch-sdk-go/sdk-clients/orderbook"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/fusion"
+	"github.com/paraleipsis/1inch-sdk-go/sdk-clients/orderbook"
 )
 
 type GetOrderByOrderHashParams struct {

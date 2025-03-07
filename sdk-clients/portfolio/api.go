@@ -3,7 +3,7 @@ package portfolio
 import (
 	"context"
 
-	"github.com/1inch/1inch-sdk-go/common"
+	"github.com/paraleipsis/1inch-sdk-go/common"
 )
 
 func (api *api) GetProtocolsCurrentValue(ctx context.Context, params GetCurrentValuePortfolioV4OverviewProtocolsCurrentValueGetParams) (*GetPortfolioValueResponse, error) {
