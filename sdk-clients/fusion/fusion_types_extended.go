@@ -30,7 +30,8 @@ type GetQuoteOutputFixed struct {
 	Volume        TokenPairValue `json:"volume"`
 
 	// Whitelist current executors whitelist addresses
-	Whitelist []string `json:"whitelist"`
+	Whitelist          []string `json:"whitelist"`
+	PriceImpactPercent float64  `json:"priceImpactPercent"`
 }
 
 type PlaceOrderBody struct {
