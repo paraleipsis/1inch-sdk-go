@@ -280,6 +280,7 @@ type PresetClassFixed struct {
 	Points             []AuctionPointClass `json:"points"`
 	StartAuctionIn     float32             `json:"startAuctionIn"`
 	TokenFee           string              `json:"tokenFee"`
+	StartAmount        string              `json:"startAmount"`
 }
 
 // QuotePresetsClassFixed defines model for QuotePresetsClass.
